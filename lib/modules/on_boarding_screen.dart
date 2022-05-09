@@ -11,7 +11,6 @@ class OnBoardingScreen extends StatelessWidget {
 
   static const bodyStyle = TextStyle(fontSize: 19.0);
   List<MealModel> favorites = [];
-
   List<PageViewModel> getOnBoarding = [
     PageViewModel(
       title: 'First, we eat. Then, we do everything else',
@@ -31,12 +30,12 @@ class OnBoardingScreen extends StatelessWidget {
   ];
 
   final introKey = GlobalKey<IntroductionScreenState>();
-
   static const pageDecoration = PageDecoration(
     titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
     bodyTextStyle: bodyStyle,
     descriptionPadding: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
     pageColor: Colors.pinkAccent,
+    imagePadding: EdgeInsets.zero,
   );
 
   void onDone(context) {

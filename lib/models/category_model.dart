@@ -13,7 +13,8 @@ const mainRecipes = const [
   CategoryModel(
       id: 'A1',
       name: 'Өглөөний цай',
-      image: 'https://images.app.goo.gl/aYNUEqGd3FHoBD3S9'),
+      image:
+          'https://image.freepik.com/free-photo/traditional-turkish-breakfast-table-with-mixed-foods_114579-2915.jpg'),
   CategoryModel(
       id: 'A2',
       name: 'Хуурга',
@@ -36,7 +37,8 @@ const recipesForYou = const [
   CategoryModel(
       id: 'A6',
       name: 'Нарийн боов',
-      image: 'https://images.app.goo.gl/VEx1p9r2GguwSZZj9'),
+      image:
+          'https://image.freepik.com/free-photo/side-view-puff-pastries-with-ground-meat-sesame-seeds-shortcakes-filled-with-mashed-potato-table_141793-5064.jpg'),
   CategoryModel(
       id: 'A7',
       name: 'Амттан',
